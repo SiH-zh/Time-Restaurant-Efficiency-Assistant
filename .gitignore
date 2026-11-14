@@ -1,0 +1,25 @@
+# 编译中间文件
+obj/
+bin/
+*.pdb
+*.tmp
+*.bak
+*.zip
+
+# 本机运行数据、日志与安装备份
+备份/
+UserData/
+Logs/
+GameLog/
+settings.json
+save.db*
+.env
+.env.*
+
+# 游戏官方依赖不分发
+Assembly-CSharp.dll
+0Harmony.dll
+Newtonsoft.Json.dll
+UnityEngine*.dll
+Unity.TextMeshPro.dll
+netstandard.dll
